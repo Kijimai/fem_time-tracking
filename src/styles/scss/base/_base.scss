@@ -1,0 +1,25 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  transition: color 0.1s ease, background-color 0.2s ease;
+  /*Automatically inherits what is specified by on the later border-box*/
+}
+
+*::selection {
+  color: hsl(var(--color-white));
+}
+
+html {
+  //this defines what 1rem is -- 10px
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  box-sizing: border-box;
+  // min-width: 28rem;
+}
