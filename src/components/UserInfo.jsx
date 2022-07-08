@@ -1,8 +1,12 @@
-import React from 'react'
+import React from "react"
 
 const UserInfo = () => {
   return (
-    <div>UserInfo</div>
+    <article>
+      <div className="user_info">
+        
+      </div>
+    </article>
   )
 }
 

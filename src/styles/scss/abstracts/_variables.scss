@@ -2,9 +2,39 @@
   --color-white: 0 100% 100%;
   --color-black: 0 0% 0%;
 
-  --color-off-white: 0 0% 79%;
-  
-  --color-grey-1: 0 0% 15%;
-  --color-grey-2: 0 0% 35%;
-  --color-grey-3: 0 0% 50%;
+
+  //Primary Colors
+  --color-blue: 246 80% 60%;
+  --color-light-red-work: 15 100% 70%;
+  --color-light-red-study: 348 100% 68%;
+  --color-soft-blue: 195 74% 62%;
+  --color-lime-green: 145 58% 55%;
+  --color-violet: 264 64% 52%;
+  --color-soft-orange: 43 84% 65%;
+
+  //Neutral
+  --color-very-dark-blue: 226 43% 10%;
+  --color-dark-blue: 235 46% 20%;
+  --color-desaturated-blue: 235 45% 61%;
+  --color-pale-blue: 236 100% 87%;
 }
+
+// ## Colors
+
+// ### Primary
+
+// - Blue: hsl(246 80%, 60%)
+
+// - Light red (work): hsl(15, 100%, 70%)
+// - Soft blue (play): hsl(195, 74%, 62%)
+// - Light red (study): hsl(348, 100%, 68%)
+// - Lime green (exercise): hsl(145, 58%, 55%)
+// - Violet (social): hsl(264, 64%, 52%)
+// - Soft orange (self care): hsl(43, 84%, 65%)
+
+// ### Neutral
+
+// - Very dark blue: hsl(226, 43%, 10%)
+// - Dark blue: hsl(235, 46%, 20%)
+// - Desaturated blue: hsl(235, 45%, 61%)
+// - Pale Blue: hsl(236, 100%, 87%)

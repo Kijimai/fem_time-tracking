@@ -1,0 +1,38 @@
+:root {
+  --color-white: 0 100% 100%;
+  --color-black: 0 0% 0%;
+  --color-blue: 246 80% 60%;
+  --color-light-red-work: 15 100% 70%;
+  --color-light-red-study: 348 100% 68%;
+  --color-soft-blue: 195 74% 62%;
+  --color-lime-green: 145 58% 55%;
+  --color-violet: 264 64% 52%;
+  --color-soft-orange: 43 84% 65%;
+  --color-very-dark-blue: 226 43% 10%;
+  --color-dark-blue: 235 46% 20%;
+  --color-desaturated-blue: 235 45% 61%;
+  --color-pale-blue: 236 100% 87%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  transition: color 0.1s ease, background-color 0.2s ease;
+  /*Automatically inherits what is specified by on the later border-box*/
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  box-sizing: border-box;
+  font-size: 1.8rem;
+}
+
+/*# sourceMappingURL=app.css.map */

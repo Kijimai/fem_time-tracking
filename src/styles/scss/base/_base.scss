@@ -9,7 +9,6 @@
 }
 
 *::selection {
-  color: hsl(var(--color-white));
 }
 
 html {
@@ -21,5 +20,5 @@ html {
 body {
   position: relative;
   box-sizing: border-box;
-  // min-width: 28rem;
+  font-size: 1.8rem;
 }
