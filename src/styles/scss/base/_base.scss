@@ -16,13 +16,25 @@ html {
   //this defines what 1rem is -- 10px
   font-size: 62.5%;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
   position: relative;
-  box-sizing: border-box;
   font-size: 1.8rem;
-  background-color: hsl(var(--color-dark-blue));
+  background-color: hsl(var(--color-very-dark-blue));
 }
 
+.grid {
+  display: grid;
+}
 
+.dashboard {
+  margin: 8.2rem 2.4rem;
+  grid-template-columns: 1;
+  gap: 2rem;
+
+  & > * {
+    border-radius: 1.5rem;
+  }
+}

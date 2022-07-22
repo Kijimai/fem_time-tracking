@@ -21,7 +21,11 @@ import React from "react"
 const TimeCard = ({ props }) => {
   const { title, timeframes, daily, weekly, monthly } = props
   return (
-    <div className="timeCard">
+    <div
+      className={`timeCard ${
+        title !== "Self Care" ? title.toLowerCase() : "selfcare"
+      }`}
+    >
       <div className="timeCard__inner-container">
         <h2 className="timeCard__name">{title}</h2>
         <p className="timeCard__hours">{timeframes.weekly.current} Hrs</p>

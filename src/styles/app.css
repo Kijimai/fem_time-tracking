@@ -26,19 +26,73 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
   position: relative;
-  box-sizing: border-box;
   font-size: 1.8rem;
-  background-color: hsl(var(--color-dark-blue));
+  background-color: hsl(var(--color-very-dark-blue));
+}
+
+.grid {
+  display: grid;
+}
+
+.dashboard {
+  margin: 8.2rem 2.4rem;
+  grid-template-columns: 1;
+  gap: 2rem;
+}
+.dashboard > * {
+  border-radius: 1.5rem;
 }
 
 .timeCard {
   position: relative;
   min-width: 90%;
   color: hsl(var(--color-white));
+  height: 20.3rem;
+  overflow: hidden;
+}
+.timeCard.work {
+  background-color: hsl(var(--color-light-red-work));
+}
+.timeCard.play {
+  background-color: hsl(var(--color-soft-blue));
+}
+.timeCard.study {
+  background-color: hsl(var(--color-light-red-study));
+}
+.timeCard.exercise {
+  background-color: hsl(var(--color-lime-green));
+}
+.timeCard.social {
+  background-color: hsl(var(--color-violet));
+}
+.timeCard.selfcare {
+  background-color: hsl(var(--color-soft-orange));
+}
+.timeCard__inner-container {
+  padding: 2.8rem 2.4rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: hsl(var(--color-dark-blue));
+}
+
+.user-info {
+  background-color: hsl(var(--color-desaturated-blue));
+}
+.user-info__container {
+  display: flex;
+  flex-direction: column;
+}
+.user-info__avatar {
+  width: 78px;
+  border: 3px solid white;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=app.css.map */
